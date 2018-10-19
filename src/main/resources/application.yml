@@ -1,0 +1,22 @@
+#  ˝æ›‘¥≈‰÷√
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+        username: root
+        password: root
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+
+#mybatis-plus≈‰÷√
+logging:
+  level:
+    com.sun.mapper: debug
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: AUTO
+  configuration:
+    map-underscore-to-camel-case: true
