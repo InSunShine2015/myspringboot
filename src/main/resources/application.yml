@@ -1,16 +1,16 @@
-# Êı¾İÔ´ÅäÖÃ
+# æ•°æ®æºé…ç½®
 spring:
-    datasource:
-        driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
-        username: root
-        password: root
-    redis:
-      host: localhost
-      port: 6379
-      database: 0
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: root
+    password: root
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
 
-#mybatis-plusÅäÖÃ
+#mybatis-plusé…ç½®
 logging:
   level:
     com.sun.mapper: debug

@@ -1,4 +1,4 @@
-package com.sun.myspringboot;
+package com.sun;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
